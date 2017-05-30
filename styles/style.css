@@ -1,11 +1,36 @@
+body {
+  background-color: black;
+}
+
 #home {
   background-position:center center;
   background-repeat:no-repeat;
   background-size: cover;
   background-attachment:scroll;
   background-color: orange;
-  background-image: url('../images/bckgr-orange-welcome.jpg');
+  background-image: url('../images/backgrounds/bckgr-orange-welcome.jpg');
   min-height: 100vh;
+}
+
+#home_container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+  padding-top: 40vh;
+  padding-bottom: 15vh;
+}
+
+#button_arrow {
+  vertical-align:middle;
+}
+
+#button_arrow > i {
+  font-size: 20px;
+}
+
+#about {
+  background-color: #ffe19b;
 }
 
 .page {
@@ -17,9 +42,109 @@
   min-height: 100vh;
 }
 
+.page-container {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+}
+
 .welcome-text {
   font-size: 40px;
   color: black;
+}
+
+#about_row_div {
+  padding-top: 20px;
+}
+
+#about_text_div {
+  padding-top: 50px;
+}
+
+#about_text_div div {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+#about_image_div {
+  height: 300px;
+}
+
+#technologies_main_div {
+  margin-right: auto;
+  margin-left: auto;
+  width: 90%;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+#contact {
+  background-color: #ffe19b;
+}
+
+#contact_main_div {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+}
+
+#contact_text_div {
+  font-size: 20px;
+}
+
+#contact_form_div {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#comments {
+  resize:none;
+}
+
+footer {
+  background-color: black;
+}
+
+#footer_main_div {
+  height: 150px;
+  background-color: black;
+}
+
+#footer_second_div {
+  margin-right: auto;
+  margin-left: auto;
+  width: 70%;
+}
+
+#footer_social_network {
+  text-align:center;
+  height: 50%;
+  margin-top: 40px;
+}
+
+#footer_social_network div p {
+  color: white;
+}
+
+#footer_social_network div a .fa-linkedin-square {
+  padding-right: 10px;
+}
+
+#footer_social_network div a .fa-codepen {
+  padding-left: 10px;
+}
+
+#footer_author {
+  height: 50%;
+  margin-top: 80px;
+}
+
+#footer_author div p {
+  text-align:center;
+  color: #878787;
 }
 
 .font-ubuntu {
@@ -36,6 +161,10 @@
 
 .font-audiowide {
   font-family: 'Audiowide', cursive;
+}
+
+.empty-div {
+  height: 100px;
 }
 
 .centered-div {
@@ -82,8 +211,8 @@
   overflow:hidden;
 }
 
-.form-contro: {
-  border-color: orange;
+.form-control {
+  margin-bottom: 10px;
 }
 
 .form-control:focus {
@@ -99,6 +228,7 @@
   margin: 2px 1px;
   color: black;
   border: 2px solid black;
+  margin-top: 10px; margin-bottom: 10px;
 }
 
 .button-send:hover { 
@@ -180,6 +310,10 @@ a.footer-link:hover {
 img.img-about {
   filter: gray;
   -webkit-filter: grayscale(100%);
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
 }
 
 img.img-about:hover {
@@ -199,4 +333,9 @@ img.img-about:hover {
 
 .technologies-div-inside {
   height: 200px;
+}
+
+.page-header {
+  font-family: 'Ubuntu', sans-serif;
+  border-bottom: 1px solid;
 }
