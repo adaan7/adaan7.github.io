@@ -6,7 +6,7 @@ $technologies.waypoint(function() {
   $('#technologies_main_div').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
     $('#technologies_main_div').removeClass('animated lightSpeedIn');
   });
-}, {offset: '70%'});
+}, {offset: '80%'});
 
 $about.waypoint(function() {
   $('#img_about').addClass('animated slideInRight');
@@ -18,7 +18,7 @@ $about.waypoint(function() {
   $('#text_about').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
     $('#text_about').removeClass('animated slideInLeft');
   });
-}, {offset: '70%'});
+}, {offset: '80%'});
 
 document.addEventListener('DOMContentLoaded', function(){
   Typed.new('.welcome-text', {
