@@ -13,6 +13,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Audiowide|Indie+Flower|Reem+Kufi|Ubuntu" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/animate.css">
 </head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -43,7 +44,7 @@
     <!-- HOME PAGE -->
     <div id="home" class="container-fluid no-div-overflow">
         <div id="home_container">
-            <p class="font-indie-flower welcome-text"><b>Let's be creative.</b></p>
+            <p class="font-indie-flower welcome-text"><br /></p>
             <a href="#about" id="arrowHome"><button id="button_arrow" class="button button-about font-reem-kufi"><i class="fa fa-angle-double-down"></i></button></a>
         </div>
     </div>
@@ -54,7 +55,7 @@
             <h3 class="page-header">ABOUT</h3>
             <div id="about_row_div" class="row">
                 <div id="about_text_div" class="col-md-7">
-                    <div>
+                    <div id="text_about">
                         <p style="color: white">Hello, my name is Adan Agic.</p>
                         <p>I'm a web designer and developer from Gracanica, Bosnia and Herzegovina. I love web and graphic design, and I have a passion for coding. I love to create for web and mobile devices.</p>
                         <p>I am self-taught developer and every day I try to upgrade my skills to a higher level.</p>
@@ -64,7 +65,7 @@
                     <!-- Empty div -->
                 </div>
                 <div id="about_image_div" class="col-md-4">
-                    <img src="images/other/adan.jpg" class="img-responsive img-circle img-about" />
+                    <img id="img_about" src="images/other/adan.jpg" class="img-responsive img-circle img-about" />
                 </div>
             </div>
             <div class="empty-div">
@@ -170,7 +171,10 @@
         </div>
     </footer>
 
+    <script src="scripts/jquery.waypoints.min.js"></script>
     <script src="scripts/smoothscroll.js"></script>
+    <script src="scripts/typed.js"></script>
+    <script src="scripts/app.js"></script>
 
 </body>
 

@@ -52,6 +52,7 @@ body {
 .welcome-text {
   font-size: 40px;
   color: black;
+  font-weight: bold;
 }
 
 #about_row_div {
@@ -69,6 +70,11 @@ body {
 
 #about_image_div {
   height: 300px;
+}
+
+#text_about {
+  animation-duration: 2s;
+  -webkit-animation-duration: 2s;
 }
 
 #technologies_main_div {
@@ -314,6 +320,8 @@ img.img-about {
   margin-left: auto;
   margin-right: auto;
   max-width: 80%;
+  animation-duration: 2s;
+  -webkit-animation-duration: 2s;
 }
 
 img.img-about:hover {
